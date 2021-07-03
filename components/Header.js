@@ -3,7 +3,7 @@ import Image from 'next/image'
 function Header() {
     return (
         <header className=" text-center leading-relaxed">
-        <div className="mt-16">
+        <div className="mt-16 transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50">
             <Image
             className="rounded-full w-40 h-40 block mx-auto shadow-soft"
             src="https://avatars.githubusercontent.com/u/17361847"

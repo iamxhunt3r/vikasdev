@@ -4,7 +4,7 @@ import Main from '../components/Main'
 
 export default function Home() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Head>
         <title>Xhunt3r&rsquo;s Portfolio</title>
         <meta name="description" content="Vikas Gupta ( Software Developer | Security Researcher)" />
