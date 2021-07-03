@@ -4,7 +4,7 @@ const Work = ({ id , image, title, url }) => {
     return (
             <a 
             href={`${url}`}
-            rel="nofollow noindex noopener"
+            rel="nofollow noreferrer noindex noopener"
             target="_blank"
             >
             <div className="p-2 group cursor-pointer transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50">
