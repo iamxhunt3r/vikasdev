@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Main from '../components/Main'
+import { projects } from '../utils/requests'
 
-export default function Home() {
+
+export default function Home({projectsList}) {
   return (
     <div className="overflow-x-hidden">
       <Head>
@@ -12,8 +14,16 @@ export default function Home() {
       </Head>
 
       <Header />
-      <Main />
+      <Main projectsList={projectsList}/>
 
     </div>
   )
 }
+
+export const getStaticProps = async () => {
+  return {
+    props: {
+      projectsList: projects,
+    },
+  };
+};
