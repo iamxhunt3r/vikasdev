@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Xhunt3r's Portfolio</title>
+        <title>Xhunt3r&rsquo;s Portfolio</title>
         <meta name="description" content="Vikas Gupta ( Software Developer | Security Researcher)" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

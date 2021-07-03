@@ -9,6 +9,7 @@ function Header() {
             src="https://avatars.githubusercontent.com/u/17361847"
             width="180"
             height="180"
+            alt="Vikas Gupta"
             />
         </div>
         <h1 className="text-4xl font-extrabold mt-4 mb-4">Vikas Gupta</h1>
