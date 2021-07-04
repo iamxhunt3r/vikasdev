@@ -5,6 +5,20 @@ function Social() {
     return (
         <div>
             <span className="pl-2">
+            <Link href="https://privacyisfreedom.blogspot.com/">
+                <a
+                rel="nofollow noreferrer noindex noopener"
+                target="_blank"
+                >
+                    <Image
+                    src="/icons/blogger.svg"
+                    height="30"
+                    width="30"
+                    />
+                </a>
+            </Link>
+            </span>
+            <span className="pl-2">
             <Link href="https://github.com/iamxhunt3r/">
                 <a
                 rel="nofollow noreferrer noindex noopener"
