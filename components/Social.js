@@ -6,7 +6,10 @@ function Social() {
         <div>
             <span className="pl-2">
             <Link href="https://github.com/iamxhunt3r/">
-                <a>
+                <a
+                rel="nofollow noreferrer noindex noopener"
+                target="_blank"
+                >
                     <Image
                     src="/icons/github.svg"
                     height="30"
@@ -17,7 +20,10 @@ function Social() {
             </span>
             <span className="pl-2">
             <Link href="https://www.linkedin.com/in/vikas-gupta-56885b131/">
-                <a>
+                <a 
+                rel="nofollow noreferrer noindex noopener"
+                target="_blank"
+                >
                     <Image
                     src="/icons/linkedin.svg"
                     height="30"
@@ -28,7 +34,10 @@ function Social() {
             </span>
             <span className="pl-2">
             <Link href="https://twitter.com/iamxhunt3r">
-                <a>
+                <a
+                rel="nofollow noreferrer noindex noopener"
+                target="_blank"
+                >
                     <Image
                     src="/icons/twitter.svg"
                     height="30"
