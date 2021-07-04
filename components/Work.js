@@ -14,11 +14,11 @@ const Work = ({ id , image, title, url }) => {
                 src={
                     `${image}` 
                 }
-                width="300"
-                height="150" 
+                width="200"
+                height="100" 
                 />
                 <div className="p-2">
-                    <h3 className="mt-1 text-xl font-medium transform duration-100 ease-in-out group-hover:font-bold text-center">
+                    <h3 className="mt-1 text-xl font-normal transform duration-100 ease-in-out group-hover:font-bold text-center">
                         {title}
                     </h3>
                     {/* <p className="flex items-center opacity-0 group-hover:opacity-100">

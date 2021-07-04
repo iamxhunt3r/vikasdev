@@ -15,7 +15,6 @@ export default function Home({projectsList}) {
 
       <Header />
       <Main projectsList={projectsList}/>
-
     </div>
   )
 }
