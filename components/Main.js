@@ -3,7 +3,7 @@ import Work from '../components/Work'
 function Main({projectsList}) {
     return (
         <div>
-            <section className="text-center">
+            <section className="text-center mx-8">
                 <p className="p-1 font-normal text-xl">Hello, I&rsquo;m Vikas Gupta. I am Web Developer, Penetration Tester and occassional Bug Bounty Hunter.</p>
                 <p className="p-1 font-normal text-xl">
                 Smart worker who likes Tech, Travelling, and Music
