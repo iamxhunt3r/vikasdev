@@ -14,7 +14,7 @@ export default function Home({projectsList}) {
         <link rel="icon" href="/favicon.ico" />
         <script
             async
-            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+            src='https://www.googletagmanager.com/gtag/js?id=G-3BD9GZRQ6C'
           />
           <script
             dangerouslySetInnerHTML={{
@@ -22,7 +22,7 @@ export default function Home({projectsList}) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+            gtag('config', 'G-3BD9GZRQ6C', {
               page_path: window.location.pathname,
             });
           `,
