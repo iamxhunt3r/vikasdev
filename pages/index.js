@@ -12,6 +12,22 @@ export default function Home({projectsList}) {
         <title>Xhunt3r&rsquo;s Portfolio</title>
         <meta name="description" content="Vikas Gupta ( Software Developer | Security Researcher)" />
         <link rel="icon" href="/favicon.ico" />
+        <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
       </Head>
 
       <Header />

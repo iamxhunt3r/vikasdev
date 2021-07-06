@@ -11,6 +11,7 @@ function Social() {
                 target="_blank"
                 >
                     <Image
+                    alt="blogger"
                     src="/icons/blogger.svg"
                     height="30"
                     width="30"
@@ -25,6 +26,7 @@ function Social() {
                 target="_blank"
                 >
                     <Image
+                    alt="github"
                     src="/icons/github.svg"
                     height="30"
                     width="30"
@@ -39,6 +41,7 @@ function Social() {
                 target="_blank"
                 >
                     <Image
+                    alt="linkedin"
                     src="/icons/linkedin.svg"
                     height="30"
                     width="30"
@@ -53,6 +56,7 @@ function Social() {
                 target="_blank"
                 >
                     <Image
+                    alt="twitter"
                     src="/icons/twitter.svg"
                     height="30"
                     width="30"
@@ -64,6 +68,7 @@ function Social() {
             <Link href="mailto:vikasgupta.92155@gmail.com">
                 <a>
                     <Image
+                    alt="gmail"
                     src="/icons/gmail.svg"
                     height="30"
                     width="30"
