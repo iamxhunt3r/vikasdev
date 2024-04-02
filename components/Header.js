@@ -1,31 +1,89 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Social from './Social'
 
 function Header() {
     return (
         <header className=" text-center leading-relaxed">
         <div className="flex flex-row justify-evenly">
-        <p className="p-5">
-            <Link href="/">
-                <a>Home</a>
-            </Link>
-            </p>
-            <p className="p-5">
-                <Social />
-            </p>
+            <div className="flex p-5">
+                <Link id="link" href="/">Home</Link>
+            </div>
+            <div className="flex p-5">
+                <span className="pl-2">
+                <Link legacyBehavior href="https://privacyisfreedom.blogspot.com/">
+                    <a
+                    rel="nofollow noreferrer noindex noopener"
+                    target="_blank"
+                    >
+                        <Image
+                        alt="blogger"
+                        src="/icons/blogger.svg"
+                        height="30"
+                        width="30"
+                        />
+                    </a>
+                </Link>
+                </span>
+                <span className="pl-2">
+                <Link legacyBehavior href="https://github.com/iamxhunt3r/">
+                    <a
+                    rel="nofollow noreferrer noindex noopener"
+                    target="_blank"
+                    >
+                        <Image
+                        alt="github"
+                        src="/icons/github.svg"
+                        height="30"
+                        width="30"
+                        />
+                    </a>
+                </Link>
+                </span>
+                <span className="pl-2">
+                <Link legacyBehavior href="https://www.linkedin.com/in/vikas-gupta-56885b131/">
+                    <a 
+                    rel="nofollow noreferrer noindex noopener"
+                    target="_blank"
+                    >
+                        <Image
+                        alt="linkedin"
+                        src="/icons/linkedin.svg"
+                        height="30"
+                        width="30"
+                        />
+                    </a>
+                </Link>
+                </span>
+                <span className="pl-2">
+                <Link legacyBehavior href="https://twitter.com/iamxhunt3r">
+                    <a
+                    rel="nofollow noreferrer noindex noopener"
+                    target="_blank"
+                    >
+                        <Image
+                        alt="twitter"
+                        src="/icons/twitter.svg"
+                        height="30"
+                        width="30"
+                        />
+                    </a>
+                </Link>
+                </span>
+                <span className="pl-2">
+                <Link legacyBehavior href="mailto:vikasgupta.92155@gmail.com">
+                    <a>
+                        <Image
+                        alt="gmail"
+                        src="/icons/gmail.svg"
+                        height="30"
+                        width="30"
+                        />
+                    </a>
+                </Link>
+                </span>
+            </div>
         </div>
         
-        <div className="mt-16 transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50">
-            <Image
-            className="rounded-full w-40 h-40 block mx-auto shadow-soft"
-            src="/me.jpeg"
-            width="180"
-            height="180"
-            alt="Vikas Gupta"
-            />
-        </div>
-        <h1 className="text-4xl font-extrabold mt-4 mb-4">Vikas Gupta</h1>
         </header>
     )
 }
