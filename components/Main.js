@@ -18,10 +18,10 @@ function Main({projectsList}) {
                 <h1 className="text-4xl font-extrabold mt-4 mb-4">Vikas Gupta</h1>
                 <p className="p-1 font-normal text-xl">Greetings, I&rsquo;m Vikas Gupta, a Security Engineer, Software Developer</p>
                 <p className="p-1 font-normal text-xl">
-                I'm a savvy professional who's passionate about technology, traveling, and music.
+                I&apos;m a savvy professional who&apos;s passionate about technology, traveling, and music.
                 </p>
                 <p className="p-1 font-normal text-xl">
-                I'm eager to engage in collaborations focused on software development and security research.<br/> Let's connect and create something great together!
+                I&apos;m eager to engage in collaborations focused on software development and security research.<br/> Let&apos;s connect and create something great together!
                 </p>
             </section>
             <h1 className="mt-12 mb-4 text-3xl font-bold text-center">Work</h1>
