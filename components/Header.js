@@ -39,30 +39,6 @@ export default function Header() {
             >
               Blog
             </Link>
-            <a 
-              href="https://github.com/iamxhunt3r/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-lg font-medium transition-all text-indigo-100 hover:text-white hover:border-b-2 hover:border-indigo-100 pb-1"
-            >
-              Github
-            </a>
-            <Link 
-              href="https://www.linkedin.com/in/vikas-gupta-56885b131" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-lg font-medium transition-all text-indigo-100 hover:text-white hover:border-b-2 hover:border-indigo-100 pb-1"
-            >
-              Linkedin
-            </Link>
-            <Link 
-              href="ttps://twitter.com/iamxhunt3r" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-lg font-medium transition-all text-indigo-100 hover:text-white hover:border-b-2 hover:border-indigo-100 pb-1"
-            >
-              Twitter
-            </Link>
           </div>
         </div>
       </nav>

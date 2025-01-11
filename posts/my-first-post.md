@@ -6,8 +6,6 @@ excerpt: 'This is my first blog post! Welcome to my blog.'
 heroImage: '/blog/my-first-post-hero.webp'
 ---
 
-![My First Blog Post Hero Image](/blog/my-first-post-hero.webp)
-
 <h1 className="text-center mt-8 mb-4">Welcome to my blog!</h1>
 
 <p>I will be sharing knowledge here about Cyber Security and Software Development.</p>
