@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .prose {
+    @apply text-[#666] leading-relaxed;
+  }
+
+  .prose h2 {
+    @apply text-2xl font-medium text-[#1a1a1a] mt-12 mb-6;
+  }
+
+  .prose h3 {
+    @apply text-xl font-medium text-[#1a1a1a] mt-8 mb-4;
+  }
+
+  .prose p {
+    @apply mb-6;
+  }
+
+  .prose ul {
+    @apply mb-6 pl-6;
+  }
+
+  .prose li {
+    @apply mb-2 list-disc;
+  }
+
+  .prose a {
+    @apply text-[#1a1a1a] underline hover:text-[#666] transition-colors;
+  }
+}
