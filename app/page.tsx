@@ -29,8 +29,7 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Security Engineer, Full-Stack Developer, and Bug Bounty Hunter specializing in vulnerability research, penetration testing, and
-            building secure applications. Previously worked at Recorded Future, currently securing the world and co-founder at a stealth company.
+           Security Engineer and Application Security Specialist. I help SaaS companies secure their products through real vulnerability research, penetration testing, and continuous security partnership. Previously at Recorded Future and currently co-founder of a stealth security startup.
           </motion.p>
 
           <motion.div
